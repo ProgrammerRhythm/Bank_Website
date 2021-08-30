@@ -31,19 +31,19 @@
             <div class="col-md-4">
                 <div class="depo">
                     <h5><b> জমা</b></h5>
-                <h2>$00</h2>
+                <h2>$<span id="depoAmount">00</span></h2>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="with">
                 <h5><b>  উত্তোলন</b></h5>
-                <h2>$00</h2>
+                <h2>$<span id="currentOut">00</span></h2>
             </div>
         </div>
             <div class="col-md-4">
                 <div class="bal">
                 <h5><b> ব্যাল্যান্স</b></h5>
-                <h2>$120</h2>
+                <h2>$<span id='bal'>120</span></h2>
             </div>
             </div>
         </div>
@@ -51,15 +51,15 @@
             <div class="col-12 col-md-6">
                 <div class="depos same">
                     <h2 style="margin-bottom: 15px;">জমা করুন</h2>
-                    <input class="form-control" type="text" placeholder="আপনি যে পরিমাণ টাকা জমা করতে চান">
-                    <button type="button" class="btn hey1">জমা</button>
+                    <input class="form-control" id="amount" type="text" placeholder="আপনি যে পরিমাণ টাকা জমা করতে চান">
+                    <button type="button" id="depo" class="btn hey1">জমা</button>
                 </div>
             </div>
             <div class="col-12 col-md-6">
                 <div class="withs same">
                     <h2 style="margin-bottom: 15px;">উত্তোলন করুন</h2>
                     <input type="text"  class="form-control" placeholder="আপনি যে পরিমাণ টাকা তুলতে চান" id="witha">
-                    <button type="button" class="btn btn-outline-success">উত্তোলন</button>
+                    <button type="button" id="out" class="btn btn-outline-success">উত্তোলন</button>
                 </div>
             </div>
         </div>
