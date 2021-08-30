@@ -10,6 +10,7 @@
     color: whitesmoke;
     padding: 40px;
     box-shadow: 0px 15px 50px 12px lightgrey;
+    margin-bottom: 50px;
 }
 .box h1,input,button{
     margin-bottom: 20px;
