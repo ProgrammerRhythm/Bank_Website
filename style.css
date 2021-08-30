@@ -14,3 +14,54 @@
 .box h1,input,button{
     margin-bottom: 20px;
 }
+.depo{
+    margin: 0px 20px;
+    background-color: rgba(131, 116, 228, 0.747);
+    height: 130px;
+    padding: 30px 45px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.with{
+    background-color: rgba(120, 255, 102, 0.959);
+    margin: 0px 20px;
+    height: 130px;
+    padding: 30px 45px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.bal{
+    margin: 0px 20px;
+    height: 130px;
+    background-color: rgba(240, 218, 23, 0.747);
+    padding: 30px 45px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.same{
+    height: 200px;
+    background-color: white;
+    gap: 10px;
+    color: black;
+    box-shadow: 2px 10px 40px 0px rgba(0, 0, 0, 0.349);
+    padding: 20px 70px 10px 35px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.same h2{
+    font-size: 30px;
+}
+.hey1{
+    border: 1px solid rgba(131, 116, 228, 0.747);
+}
+.hey1:hover{
+    background-color: rgba(131, 116, 228, 0.747);
+}
+#color{
+    color: white;
+    margin-top: 50px;
+}
+#transfar_Area{
+    display: none;
+}

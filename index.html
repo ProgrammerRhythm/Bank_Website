@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="logo.jpg" type="image/jpg">
     <title>পরিবার কল্যাণ ব্যাংক</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="login-area">
-    <div class="container">
-        <h1 class="hey"><span style="color: rgb(135, 79, 190);"> পরিবার কল্যাণ ব্যাংকে</span> আপনাকে স্বাগত</h1>
-        <div class="box">
-            <h1 style="font-size: 30px; color: rgba(0, 128, 0, 0.685);">লগ-ইন করুন</h1>
-            <input class="form-control" type="email" id="email" placeholder="ইমেইল আইডি দিন">
-            <input class="form-control" type="password"  id="password" placeholder="পাসওয়ার্ড দিন">
-            <button id="login" type="submit" class="btn btn-outline-success">লগ-ইন</button>
+        <div class="container">
+            <h1 class="hey"><span style="color: rgb(135, 79, 190);"> পরিবার কল্যাণ ব্যাংকে</span> আপনাকে স্বাগত</h1>
+            <div class="box">
+                <h1 style="font-size: 30px; color: rgba(0, 128, 0, 0.685);">লগ-ইন করুন</h1>
+                <input class="form-control" type="email" id="email" placeholder="ইমেইল আইডি দিন">
+                <input class="form-control" type="password" id="password" placeholder="পাসওয়ার্ড দিন">
+                <button id="login" type="submit" class="btn btn-outline-success">লগ-ইন</button>
+            </div>
         </div>
     </div>
-</div>
-    <script>
-        const Btn = document.getElementById('login');
-        Btn.addEventListener('click',function(){
-            console.log('Hey Buro')
-        })
-    </script>
+    <div id="transfar_Area">
+        <div class="container">
+        <b><h1 style="font-size: 35px; text-align: center; margin-top: 30px;"><span style="color: red;">লেনদেন</span> করুন</h1></b>
+        <div id="color" class="row">
+            <div class="col-md-4">
+                <div class="depo">
+                    <h5><b> জমা</b></h5>
+                <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="with">
+                <h5><b>  উত্তোলন</b></h5>
+                <h2>$00</h2>
+            </div>
+        </div>
+            <div class="col-md-4">
+                <div class="bal">
+                <h5><b> ব্যাল্যান্স</b></h5>
+                <h2>$120</h2>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="depos same">
+                    <h2 style="margin-bottom: 15px;">জমা করুন</h2>
+                    <input class="form-control" type="text" placeholder="আপনি যে পরিমাণ টাকা জমা করতে চান">
+                    <button type="button" class="btn hey1">জমা</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="withs same">
+                    <h2 style="margin-bottom: 15px;">উত্তোলন করুন</h2>
+                    <input type="text"  class="form-control" placeholder="আপনি যে পরিমাণ টাকা তুলতে চান" id="witha">
+                    <button type="button" class="btn btn-outline-success">উত্তোলন</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+   
     <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
