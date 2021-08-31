@@ -1,11 +1,12 @@
 // login button event
 const Btn = document.getElementById('login');
-        Btn.addEventListener('click', function () {
-            const loginArea = document.getElementById('login-area');
-            loginArea.style.display = "none";
-            const transfarArea = document.getElementById('transfar_Area');
-            transfarArea.style.display=('block');
+Btn.addEventListener('click', function () {
+    const loginArea = document.getElementById('login-area');
+    loginArea.style.display = "none";
+    const transfarArea = document.getElementById('transfar_Area');
+    transfarArea.style.display=('block');    
 })
+
 // deposit 
 const depoIn = document.getElementById('depo');
 depoIn.addEventListener('click',function(){
