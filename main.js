@@ -1,10 +1,26 @@
 // login button event
 const Btn = document.getElementById('login');
 Btn.addEventListener('click', function () {
+    const email = document.getElementById('email').value;
+    const mainEmail = email.length;
+    const password = document.getElementById('password').value;
+    const mainPassword = password.length;
+    console.log(mainPassword)
+    if (mainEmail==0 && mainPassword==0) {
+        alert('Enter Email Id and Password')
+    }
+    if(mainEmail==0){
+            alert('Enter Email Id');
+    }
+    else if(mainPassword==0){
+        alert('Enter Password')
+    }
+    else{
     const loginArea = document.getElementById('login-area');
     loginArea.style.display = "none";
     const transfarArea = document.getElementById('transfar_Area');
-    transfarArea.style.display=('block');    
+    transfarArea.style.display=('block');   
+} 
 })
 
 // deposit 
